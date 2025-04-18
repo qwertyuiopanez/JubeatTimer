@@ -3,8 +3,8 @@ import time
 def increment_counter():
     try:
         # Get the starting value for the counter from the user
-        counter = int(input("Current Stamina: ") - 1)
-
+        counter = int(input("Current Stamina: ")
+        time.sleep(3 * 60)
         while True:
             counter += 1
             print(f"Stamina: {counter}")
